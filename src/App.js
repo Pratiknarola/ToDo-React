@@ -7,11 +7,14 @@ import DoneList from './donelist.js'
 
 
 const App = () => {
+        
     return (
         <div>
             <InputTODO></InputTODO>
-            <ToDoList></ToDoList>
-            <DoneList></DoneList>
+            <ToDoList listitems={[]}></ToDoList>
+            {/* <DoneList></DoneList> */}
         </div>
     )
 }
+
+export default App
